@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="bingbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="referrer" content="no-referrer">
+  <meta name="theme-color" content="#090b12">
+  <title>Chris McGuire — Applied AI, Software and Cyber Security</title>
+  <meta name="description" content="Selected software, AI, cyber security and technical simulation projects by Chris McGuire.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#work">Skip to selected work</a>
+  <header class="topbar">
+    <a class="identity" href="#top"><span>CM</span> Chris McGuire</a>
+    <nav aria-label="Primary navigation">
+      <a href="#work">Projects</a><a href="#security">Security</a><a href="#background">Background</a><a class="contact-link" href="mailto:chrispymcguire@gmail.com">Email</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro" id="top">
+      <div class="intro-copy">
+        <p class="kicker">Applied AI · Software · Cyber security</p>
+        <h1>I make ambitious technical ideas work.</h1>
+        <p class="lede">I’m Chris McGuire. I build software, AI-assisted tools and technical simulations, and I like understanding systems deeply enough to test, adapt or connect them in ways that are not immediately obvious.</p>
+        <div class="intro-actions"><a class="primary-action" href="#work">See what I’ve built</a><a class="secondary-action" href="#background">Why my background is different</a></div>
+      </div>
+      <aside class="profile-console" aria-label="Current focus">
+        <div class="console-bar"><span>PROFILE / CURRENT_FOCUS</span><i></i><i></i><i></i></div>
+        <div class="console-body">
+          <p><span class="prompt">01</span><strong>Applied AI</strong><small>Using AI to accelerate real application development while reviewing the code, logic and output.</small></p>
+          <p><span class="prompt">02</span><strong>Software systems</strong><small>Building tools around the actual workflow, including its exceptions and constraints.</small></p>
+          <p><span class="prompt">03</span><strong>Offensive curiosity</strong><small>Reverse engineering, CTFs, protocol analysis and controlled testing of how systems fail.</small></p>
+          <p><span class="prompt">04</span><strong>Technical simulation</strong><small>Turning equipment, control logic and fault behaviour into interactive learning.</small></p>
+        </div>
+        <div class="console-footer"><span>Gold Coast, Australia</span><span>OPEN TO INTERESTING PROBLEMS</span></div>
+      </aside>
+    </section>
+
+    <section class="statement"><p>My advantage is range with depth. I can follow a problem through software, networks, control logic, electronics and the person using the result—then build the missing piece.</p></section>
+
+    <section class="projects" id="work">
+      <header class="section-header">
+        <div><span class="section-number">01</span><p class="kicker">Selected work</p></div>
+        <h2>Ideas made tangible.</h2>
+        <p>Not a complete archive. These projects best show how I think, what I can build and the kinds of problems that hold my attention.</p>
+      </header>
+      <div class="project-list">
+        <article class="project">
+          <div class="project-media media-faults"><div class="image-slot"><span>PHOTO / VIDEO</span><strong>Fault-training system</strong><small>Physical prototype and instructor interface</small></div></div>
+          <div class="project-detail">
+            <div class="project-meta"><span>Python</span><span>Raspberry Pi</span><span>Web UI</span><span>Electronics</span></div>
+            <h3>Software-controlled electrical fault training</h3>
+            <p class="project-summary">A training system that lets an instructor assign hidden faults to a physical electrical board, then observe learners diagnose the equipment.</p>
+            <p>The interesting part is not the board alone. It is the complete interaction between the instructor application, networked controller, physical fault switching and the learner’s test process.</p>
+            <dl><div><dt>Problem</dt><dd>Create realistic, repeatable fault-finding practice without revealing the fault.</dd></div><div><dt>My contribution</dt><dd>Concept, system design, software, electronics and training workflow.</dd></div></dl>
+          </div>
+        </article>
+        <article class="project project-flipped">
+          <div class="project-media media-plc"><div class="image-slot"><span>PHOTO / SCREEN CAPTURE</span><strong>PLC simulator running</strong><small>Real controller I/O driving a simulated plant</small></div></div>
+          <div class="project-detail">
+            <div class="project-meta"><span>JavaScript</span><span>Python</span><span>GPIO</span><span>Modbus TCP</span></div>
+            <h3>PLC plant simulators with consequences</h3>
+            <p class="project-summary">Interactive plant simulations driven by a learner’s real PLC program—not by hidden application logic.</p>
+            <p>The simulators expose weak control logic through believable results: contactor conflicts, overloads, dry running and failed interlocks. Incorrect programs remain visible instead of being silently corrected.</p>
+            <dl><div><dt>Scenarios</dt><dd>Roller door, duplex pump station, cold room and access control.</dd></div><div><dt>Design decision</dt><dd>The PLC owns the sequence; the simulator owns the physical response.</dd></div></dl>
+          </div>
+        </article>
+        <div class="project-cards">
+          <article class="mini-project"><div class="mini-top"><span>BUSINESS SOFTWARE</span><b>01</b></div><h3>Spreadsheet Comparison</h3><p>A reusable Excel application that compares records across workbooks through a plain-language interface while protecting the original files.</p><div class="mini-tags">VBA · Excel · Workflow design</div></article>
+          <article class="mini-project accent-card"><div class="mini-top"><span>IN DEVELOPMENT</span><b>02</b></div><h3>Training Simulation Engine</h3><p>A platform for authoring technical fault scenarios, running simulations and assessing decisions across electrical and related domains.</p><div class="mini-tags">Python · FastAPI · React · SQLite</div></article>
+          <article class="mini-project"><div class="mini-top"><span>REVERSE ENGINEERING</span><b>03</b></div><h3>Serial Analyser</h3><p>A cross-platform serial terminal for capturing, inspecting and eventually decoding unfamiliar device communications.</p><div class="mini-tags">Python · Qt · Protocol analysis</div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="security" id="security">
+      <header class="security-heading"><span class="section-number">02</span><p class="kicker">Offensive security</p><h2>I like finding out what a system assumes.</h2></header>
+      <div class="security-copy">
+        <p>Security is part of how I learn systems. I’m interested in reverse engineering, vulnerability discovery, network behaviour and the gap between how something is expected to work and what it actually permits.</p>
+        <p>My practice is in authorised labs and learning environments, supported by Certificate IV cyber security training and practical work with common analysis and testing tools.</p>
+        <div class="security-tools"><span>Burp Suite</span><span>Wireshark</span><span>Nmap</span><span>Splunk</span><span>Sysmon</span><span>CTFs</span><span>CrackMes</span></div>
+      </div>
+      <div class="thm-panel"><div class="thm-title"><span>TRYHACKME / PUBLIC PROFILE</span><b>LINK PENDING</b></div><div class="thm-placeholder"><strong>TryHackMe panel</strong><small>Live badge and profile link will appear here</small></div></div>
+    </section>
+
+    <section class="background" id="background">
+      <header class="section-header compact"><div><span class="section-number">03</span><p class="kicker">Background</p></div><h2>The breadth is useful.</h2><p>It means I can work across boundaries that normally require several separate conversations.</p></header>
+      <div class="background-grid">
+        <article><span>20+ years</span><h3>Electrical and electronics</h3><p>Industrial controls, automation, manufacturing, marine systems, component-level diagnosis and technical fault-finding.</p></article>
+        <article><span>Since 2018</span><h3>Technical education</h3><p>Teaching PLCs, industrial control, electronics, automation, security systems and practical diagnostic methods.</p></article>
+        <article><span>Current focus</span><h3>Software and AI</h3><p>Python applications, web interfaces, business tools, simulations and AI-assisted development with direct review and testing.</p></article>
+        <article><span>Ongoing</span><h3>Cyber and reverse engineering</h3><p>Secure design, network analysis, offensive-security labs, serial communications and learning how unfamiliar systems behave.</p></article>
+      </div>
+    </section>
+
+    <section class="closing"><p class="kicker">Chris McGuire</p><h2>I’m interested in difficult problems, unusual combinations and useful results.</h2><a class="primary-action" href="mailto:chrispymcguire@gmail.com">Start a conversation</a></section>
+  </main>
+  <footer><span>Shared privately by link</span><span>Gold Coast · Queensland · Australia</span></footer>
+</body>
+</html>
