@@ -130,9 +130,13 @@ blockquote footer { margin-top: 3.5rem; color: #7f8991; font-size: .85rem; }
 .gallery-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem; }
 .gallery-card { overflow: hidden; border: 1px solid var(--line); background: var(--surface); }
 .gallery-card .placeholder-image { min-height: 280px; }
+.profile-panel { display: grid; place-items: center; min-height: 280px; padding: 2rem; border-bottom: 1px solid var(--line); background: radial-gradient(circle at 50% 45%, rgba(96,165,250,.13), transparent 18rem), #0d131d; }
+.profile-panel img { display: block; width: min(100%, 420px); height: auto; image-rendering: auto; transition: transform .2s ease, filter .2s ease; }
+.profile-panel:hover img, .profile-panel:focus-visible img { transform: translateY(-2px); filter: brightness(1.08); }
 .gallery-copy { padding: 1.45rem; }
 .gallery-copy h2 { margin-bottom: .55rem; font-size: 1.35rem; }
 .gallery-copy p { margin-bottom: 0; color: var(--muted); }
+.inline-link { color: var(--accent); font-weight: 700; text-underline-offset: .2em; }
 .detail-footer { width: min(var(--max), calc(100% - 48px)); margin: 0 auto; padding: 2rem 0; border-top: 1px solid var(--line); }
 
 @media (max-width: 760px) {
