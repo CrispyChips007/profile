@@ -145,6 +145,7 @@ blockquote footer { margin-top: 3.5rem; color: #7f8991; font-size: .85rem; }
 .detail-intro { margin-bottom: .4rem; color: #cbd2d2; font-size: clamp(1.08rem, 1.7vw, 1.32rem); }
 .gallery-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem; }
 .gallery-card { overflow: hidden; border: 1px solid var(--line); background: var(--surface); }
+.evidence-card .gallery-image { margin-bottom: 12px; }
 .gallery-card .placeholder-image { min-height: 280px; }
 .gallery-image { display: block; width: calc(100% - 24px); margin: 12px 12px 0; aspect-ratio: 16 / 10; object-fit: cover; border: 1px solid rgba(255,255,255,.16); border-radius: 4px; background: radial-gradient(circle at 75% 25%, rgba(96,165,250,.18), transparent 35%), linear-gradient(135deg, #0d131d, #111a26); box-shadow: 0 10px 24px rgba(0,0,0,.18); }
 .gallery-image.contain { object-fit: contain; }
@@ -155,6 +156,7 @@ blockquote footer { margin-top: 3.5rem; color: #7f8991; font-size: .85rem; }
 .gallery-copy h2 { margin-bottom: .55rem; font-size: 1.35rem; }
 .gallery-copy p { margin-bottom: 0; color: var(--muted); }
 .inline-link { color: var(--accent); font-weight: 700; text-underline-offset: .2em; }
+.cyber-profile-link { margin-top: 2rem; }
 .project-section { padding: 4.5rem 0; border-top: 1px solid var(--line); }
 .project-section-heading { display: grid; grid-template-columns: 1fr minmax(280px, .7fr); gap: 3rem; align-items: end; margin-bottom: 2rem; }
 .project-section-heading h2 { margin-bottom: 0; }
